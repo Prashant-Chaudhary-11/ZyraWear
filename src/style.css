@@ -18,15 +18,29 @@
     --secondary-color: #F6973F;
     --accent-color: #f7f7f7;
     --text-color: #7b7b7b;
+    --light-color: #5c5c5c;
 }
 
 body {
-    font-family: 'Gilroy-Light', sans-serif !important;
+    /* font-family: 'Gilroy-Light', sans-serif !important; */
+    font-family: "Assistant", sans-serif;
+    font-weight: 400;
+    line-height: 30px!important;
 }
 
+p{
+    color: var(--light-color);
+}
 html {
     scroll-behavior: smooth;
     font-size: 16px;
+}
+
+.font10{
+    font-size: 10px!important;
+}
+.font12{
+    font-size: 12px!important;
 }
 
 .primaryColor {
@@ -39,6 +53,10 @@ html {
 .mediumBold{
     font-family: 'Gilroy-Medium', sans-serif !important;
     font-weight: 500;
+}
+.customBold{
+    font-family: 'Gilroy-Bold', sans-serif !important;
+    font-weight: 700;
 }
 /* Header */
 .header{
@@ -108,10 +126,17 @@ html {
     font-family: 'Gilroy-Bold', sans-serif !important;
     font-size: 65px;
     color: var(--accent-color);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
 }
 .secondaryHeading{
     font-size: 22px;
     color: var(--accent-color);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.sectionsHeading{
+    font-family: 'Gilroy-Bold', sans-serif !important;
+    font-size: 30px;
+    color: var(--primary-color);
 }
 /* Why US */
 .WhyUs{
@@ -134,3 +159,35 @@ html {
     padding: 2rem;
 }
 
+/* Experience */
+.experienceImg{
+    width: 90%;
+}
+.ExperienceSection{
+    padding: 8rem 2rem;
+
+}
+.topSmallHeading{
+    color: var(--secondary-color);
+    letter-spacing: 3px;
+    font-family: 'Gilroy-Bold', sans-serif !important;
+    font-weight: 600;
+}
+/* material */
+.materialImg{
+    height: auto;
+    width: 75%;
+}
+.firstImgCol{
+    height: auto;
+    width: 80%;
+}
+/* Top Picked */
+.topCards{
+    cursor: pointer;
+}
+.topCards:hover{
+    /* Zoom */
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}

@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Why } from '../Pages/Why';
+import { Experience } from './Experience';
+import { Material } from './Material';
+import { Top } from './Top';
 
 const bgImages = [
   '../src/images/welcome.jpg',
@@ -33,6 +36,9 @@ export const Home = () => {
         </h4>
       </div>
       <Why />
+      <Experience/>
+      <Top/>
+      <Material/>
     </div>
   );
 };

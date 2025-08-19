@@ -26,8 +26,11 @@ export const Header = () => {
                         <input className="customInput me-2" type="text" placeholder="Search" />
                         <i class="customSearchIcon fa-solid fa-magnifying-glass position-absolute top-50 start-0 translate-middle-y"></i>
                     </div>
-                    <NavLink to="/login" className="btn customButton me-2">Login</NavLink>
-                    <NavLink to="/signup" className="btn customButton">Sign Up</NavLink>
+                    <NavLink to="/login" className="btn border-0 shadow-none d-flex flex-column align-items-center justify-content-center me-2"><i class="fa-brands fa-opencart"></i> <span className="font12">Cart</span></NavLink>
+                    <NavLink to="/login" className="btn border-0 shadow-none d-flex flex-column align-items-center justify-content-center me-2"><i class="fa-regular fa-heart"></i> <span className="font12">Wishlist</span></NavLink>
+                    <NavLink to="/login" className="btn border-0 shadow-none d-flex flex-column align-items-center justify-content-center"><i class="fa-regular fa-user"></i> <span className="font12">Sign In</span></NavLink>
+                    {/* <NavLink to="/login" className="btn customButton me-2">Login</NavLink>
+                    <NavLink to="/signup" className="btn customButton">Sign Up</NavLink> */}
                 </div>
             </div>
         </div>
