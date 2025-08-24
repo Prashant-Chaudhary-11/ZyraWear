@@ -4,26 +4,26 @@ export const Footer = () => {
     return (
         <div className="footer">
             <div className="row mx-0">
-                <div className="col-3">
+                <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-4 text-center">
                     <h2 className="logo m-0 mb-2 d-flex align-items-center"><img src={logo} alt="" width={28} className="me-2" />ZyraWear</h2>
-                    <p>Elevate your wardrobe with ZyraWear.
+                    <p className='text-start'>Elevate your wardrobe with ZyraWear.
                         Where timeless style meets everyday comfort.</p>
                 </div>
-                <div className="col-3">
+                <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-4 text-center">
                     <h6 className="secondaryColor mb-3">About</h6>
                     <p>Company</p>
                     <p>Contact</p>
                     <p>Blog</p>
                     <p>Careers</p>
                 </div>
-                <div className="col-3">
+                <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-4 text-center">
                     <h6 className="secondaryColor mb-3">Shop By</h6>
                     <p>All</p>
                     <p>Mens</p>
                     <p>Womens</p>
                     {/* <p>Kids</p> */}
                 </div>
-                <div className="col-3">
+                <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-4 text-center">
                     <h6 className="secondaryColor mb-3">Follow Us</h6>
                     <p><i class="fa-brands fa-facebook-f"></i> Facebook</p>
                     <p><i class="fa-brands fa-instagram"></i> Instagram</p>

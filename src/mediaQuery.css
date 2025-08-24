@@ -1,0 +1,6 @@
+/* for smartphone */
+@media only screen and (max-width: 600px) {
+  .topImageHome, .cardImageShop{
+    height: 17rem!important;
+  }
+}

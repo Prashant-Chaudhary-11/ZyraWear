@@ -68,18 +68,18 @@ export const Top = () => {
 
             <div className="row mx-0 pt-3">
                 {topDresses.map((item, index) => (
-                    <div key={index} className="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div key={index} className="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
                         <div className="card shadow-sm h-100 topCards border-0">
                             <img
                                 src={item.Image}
-                                className="card-img-top"
+                                className="card-img-top topImageHome"
                                 alt={item.Name}
                                 style={{ height: "25rem", objectFit: "cover" }}
                             />
                             <div className="card-body ">
-                                <h6 className="card-title">{item.Name}</h6>
+                                <h6 className="card-title">{item.category}</h6>
                                 {item.SubTitle && (
-                                    <p className="small text-muted">{item.category}</p>
+                                    <p className="small text-muted text-truncate">{item.Name}</p>
                                 )}
                                 <div className="d-flex justify-content-between align-items-center">
                                     <p className="fw-bold m-0">₹{item.price}</p>

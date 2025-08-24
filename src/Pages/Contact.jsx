@@ -31,7 +31,7 @@ export const Contact = () => {
             </div>
 
             <div className="row mx-0 faqContainerSecond">
-                <div className="col-4 ps-0">
+                <div className="col-lg-4 col-md-4 col-sm-4 col-12 mb-4 ps-0">
                     <h6 className="secondaryColor topSmallHeading mb-4">Support</h6>
                     <h2>FAQs</h2>
                     <p>
@@ -39,13 +39,13 @@ export const Contact = () => {
                         Can't find the answer you're looking for? Please chat with our support team.
                     </p>
                 </div>
-                <div className="col-8">
+                <div className="col-lg-8 col-md-8 col-sm-8 col-12 p-0">
                     <div className="accordion accordion-flush" id="faqAccordion">
                         {faqs.map((faq, index) => (
                             <div className="accordion-item border-0 mb-2" key={index}>
                                 <h2 className="accordion-header border-0" id={`heading${index}`}>
                                     <button
-                                        className={`accordion-button bg-white shadow-none border-0 fw-medium ${index !== 0 ? "collapsed" : ""}`}
+                                        className={`accordion-button bg-white shadow-none border-0 px-0 fw-medium ${index !== 0 ? "collapsed" : ""}`}
                                         type="button"
                                         data-bs-toggle="collapse"
                                         data-bs-target={`#collapse${index}`}
@@ -73,11 +73,11 @@ export const Contact = () => {
 
             <div className="subscriptionContainer m-4 rounded-4">
                 <div className="row mx-0">
-                    <div className="col-md-6">
+                    <div className="col-md-6 mb-3">
                         <h2>Join 2,000+ Subscribers</h2>
                         <p>Subscribe to our newsletter for the latest updates and exclusive offers.</p>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6 mb-3">
                         <div className="position-relative">
                             <input className="customInputNoIcon me-2 w-75" type="text" placeholder="Enter your email" />
                             <button className="btn btn-dark rounded-circle customButtonNoIcon"><i class="fa-solid fa-paper-plane"></i></button>

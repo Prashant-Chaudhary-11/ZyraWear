@@ -19,6 +19,9 @@ html {
     scroll-behavior: smooth;
     font-size: 16px;
 }
+.lightborder{
+    border: 1px solid #dee2e6!important;
+}
 .cursor-pointer{
     cursor: pointer;
 }
@@ -200,7 +203,6 @@ html {
     cursor: pointer;
 }
 .topCards:hover{
-    /* Zoom */
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
 }
