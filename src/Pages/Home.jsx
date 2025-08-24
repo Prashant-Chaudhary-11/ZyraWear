@@ -5,9 +5,9 @@ import { Material } from './Material';
 import { Top } from './Top';
 
 const bgImages = [
-  '../src/images/welcome.jpg',
-  '../src/images/welcome_cloths.jpg',
-  '../src/images/welcome_girl.jpg'
+  'welcome.jpg',
+  'welcome_cloths.jpg',
+  'welcome_girl.jpg'
 ];
 export const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

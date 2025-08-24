@@ -1,9 +1,4 @@
 import { useEffect, useRef } from "react";
-import top_women from '../images/top_women.jpg';
-import tshirt_women from '../images/tshirt_women.jpg';
-import tshirt_men from '../images/tshirt_men.jpg';
-
-
 
 export const Material = () => {
     const imgRef = useRef(null);
@@ -61,13 +56,13 @@ export const Material = () => {
                             <div className="d-flex flex-column align-items-end me-2">
                                 <img
                                     ref={imgRef}
-                                    src={top_women}
+                                    src="top_women.jpg"
                                     className="materialImg w-100 rounded-4 mb-2"
                                     alt=""
                                 />
                                 <img
                                     ref={imgRef}
-                                    src={tshirt_men}
+                                    src="tshirt_men.jpg"
                                     className="materialImg w-100 rounded-4"
                                     alt=""
                                 />
@@ -77,7 +72,7 @@ export const Material = () => {
                             <div>
                                 <img
                                     ref={imgRef}
-                                    src={tshirt_women}
+                                    src="tshirt_women.jpg"
                                     className="materialImg rounded-4 w-100 h-auto"
                                     alt=""
                                 />

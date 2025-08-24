@@ -1,6 +1,4 @@
 import { useEffect, useRef } from "react";
-import experience from "../images/experience_2.jpg";
-
 
 export const Experience = () => {
     const imgRef = useRef(null);
@@ -47,7 +45,7 @@ export const Experience = () => {
                     <div className="position-relative">
                         <img
                             ref={imgRef}
-                            src={experience}
+                            src="experience_2.jpg"
                             className="experienceImg rounded-4"
                             alt=""
                         />

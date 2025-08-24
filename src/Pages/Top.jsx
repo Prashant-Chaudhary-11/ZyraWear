@@ -1,5 +1,3 @@
-import experience from "../images/experience_2.jpg";
-
 let topDresses = [
     {
         category: "Women Top",
