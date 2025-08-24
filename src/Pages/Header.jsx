@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../images/ZyraWear_Logo.png";
 
 export const Header = ({ WishlistCount }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,7 +10,7 @@ export const Header = ({ WishlistCount }) => {
         {/* Logo */}
         {/* Logo */}
         <NavLink to="/" className="d-flex align-items-center text-decoration-none" onClick={() => setMenuOpen(false)}>
-          <img src={logo} alt="Logo" width={28} className="me-2" />
+          <img src="ZyraWear_Logo.png" alt="Logo" width={28} className="me-2" />
           <h2 className="logo m-0">ZyraWear</h2>
         </NavLink>
 
