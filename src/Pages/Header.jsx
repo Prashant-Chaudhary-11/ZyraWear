@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../images/ZyraWear logo.png";
+import logo from "../images/ZyraWear_Logo.png";
 
 export const Header = ({ WishlistCount }) => {
   const [menuOpen, setMenuOpen] = useState(false);

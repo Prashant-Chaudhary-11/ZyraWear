@@ -1,4 +1,4 @@
-import logo from '../images/ZyraWear logo.png'
+import logo from '../images/ZyraWear_logo.png'
 export const Footer = () => {
     let year = new Date().getFullYear();
     return (
