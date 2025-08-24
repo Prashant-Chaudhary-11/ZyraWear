@@ -1,11 +1,11 @@
 import { NavLink } from "react-router-dom";
-
+import logo from '../images/ZyraWear logo.png'
 export const Header = (WishlistCount) => {
     console.log("WishlistCount", WishlistCount)
     return (
         <div className="header py-2 z-3 px-5">
             <div className="d-flex align-items-center justify-content-between">
-                <h2 className="logo m-0">ZyraWear</h2>
+                <h2 className="logo m-0 d-flex align-items-center"><img src={logo} alt="" width={28} className="me-2" />ZyraWear</h2>
                 <nav>
                     <ul className="d-flex list-unstyled mb-0">
                         <li className="me-4">

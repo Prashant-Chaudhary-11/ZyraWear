@@ -32,7 +32,8 @@ export const Shop = ({ onWishlistChange }) => {
         if (categoryFilter !== "all" && item.gender?.toLowerCase() !== categoryFilter) {
             return false;
         }
-
+        //when category is men or women then show {["Women Dresses", "Women Tops", "Mens-Tshirt", "Mens Shirt", "Mens Coat", "Mens Ethenic", "Women Saree", "Women Ethenic", "Women Tshirt", "Mens Jeans", "Women Jeans"] their profucts only
+        
         // Category Filter
         if (categories.length > 0 && !categories.includes(item.category)) {
             return false;
@@ -43,6 +44,7 @@ export const Shop = ({ onWishlistChange }) => {
             return false;
         }
 
+
         return true;
     }).sort((a, b) => {
         if (sortBy === "lowtohigh") return a.price - b.price;
@@ -52,6 +54,7 @@ export const Shop = ({ onWishlistChange }) => {
         return 0; // Recommended / Default
     });
 
+    console.log("filteredData", filteredData);
     const addWishlist = (item) => {
         const wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
         const index = wishlist.findIndex((i) => i.id === item.id);
@@ -173,27 +176,33 @@ export const Shop = ({ onWishlistChange }) => {
 
                         {/* Category Filter */}
                         <div>
-                            <h6 className="vertical-filters-header">CATEGORIES</h6>
-                            {["Women Dresses", "Women Tops", "Mens-Tshirt", "Mens Shirt", "Mens Coat", "Mens Ethenic", "Women Saree", "Women Ethenic", "Women Tshirt", "Mens Jeans", "Women Jeans"].map((cat, i) => (
-                                <div className="form-check d-flex align-items-center gap-2" key={i}>
-                                    <input
-                                        className="form-check-input"
-                                        type="checkbox"
-                                        checked={categories.includes(cat)}
-                                        onChange={() => {
-                                            if (categories.includes(cat)) {
-                                                setCategories(categories.filter((c) => c !== cat));
-                                            } else {
-                                                setCategories([...categories, cat]);
-                                            }
-                                        }}
-                                        id={`cat-${i}`}
-                                    />
-                                    <label className="form-check-label font14 text-muted" htmlFor={`cat-${i}`}>
-                                        {cat}
-                                    </label>
-                                </div>
-                            ))}
+                        <h6 className="vertical-filters-header">CATEGORIES</h6>
+                        {(
+                            categoryFilter === "men"
+                            ? ["Mens-Tshirt", "Mens Shirt", "Mens Coat", "Mens Ethenic", "Mens Jeans"]
+                            : categoryFilter === "women"
+                            ? ["Women Dresses", "Women Tops", "Women Saree", "Women Ethenic", "Women Tshirt", "Women Jeans"]
+                            : ["Women Dresses", "Women Tops", "Mens-Tshirt", "Mens Shirt", "Mens Coat", "Mens Ethenic", "Women Saree", "Women Ethenic", "Women Tshirt", "Mens Jeans", "Women Jeans"] // fallback = all
+                        ).map((cat, i) => (
+                            <div className="form-check d-flex align-items-center gap-2" key={i}>
+                            <input
+                                className="form-check-input"
+                                type="checkbox"
+                                checked={categories.includes(cat)}
+                                onChange={() => {
+                                if (categories.includes(cat)) {
+                                    setCategories(categories.filter((c) => c !== cat));
+                                } else {
+                                    setCategories([...categories, cat]);
+                                }
+                                }}
+                                id={`cat-${i}`}
+                            />
+                            <label className="form-check-label font14 text-muted" htmlFor={`cat-${i}`}>
+                                {cat}
+                            </label>
+                            </div>
+                        ))}
                         </div>
                         <hr />
 

@@ -1,10 +1,11 @@
+import logo from '../images/ZyraWear logo.png'
 export const Footer = () => {
     let year = new Date().getFullYear();
     return (
         <div className="footer">
             <div className="row mx-0">
                 <div className="col-3">
-                    <h5 className="fw-bold mb-3 logo">ZyraWear</h5>
+                    <h2 className="logo m-0 mb-2 d-flex align-items-center"><img src={logo} alt="" width={28} className="me-2" />ZyraWear</h2>
                     <p>Elevate your wardrobe with ZyraWear.
                         Where timeless style meets everyday comfort.</p>
                 </div>
@@ -20,7 +21,7 @@ export const Footer = () => {
                     <p>All</p>
                     <p>Mens</p>
                     <p>Womens</p>
-                    <p>Kids</p>
+                    {/* <p>Kids</p> */}
                 </div>
                 <div className="col-3">
                     <h6 className="secondaryColor mb-3">Follow Us</h6>

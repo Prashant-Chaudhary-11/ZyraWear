@@ -11,11 +11,19 @@ fs.readFile("Store.json", "utf8", (err, data) => {
     // Parse JSON
     let dresses = JSON.parse(data);
 
-    // Add IDs
-    dresses = dresses.map((item, index) => ({
-      id: index + 1, // unique ID
-      ...item
-    }));
+    // Find the maximum existing ID (if any)
+    let maxId = dresses.reduce((max, item) => {
+      return item.id && Number.isInteger(item.id) ? Math.max(max, item.id) : max;
+    }, 0);
+
+    // Add IDs to items without an ID
+    dresses = dresses.map((item, index) => {
+      if (!item.id) {
+        maxId += 1;
+        return { id: maxId, ...item };
+      }
+      return item;
+    });
 
     // Save updated JSON back to file
     fs.writeFile("dresses_with_id.json", JSON.stringify(dresses, null, 2), (err) => {
@@ -23,7 +31,7 @@ fs.readFile("Store.json", "utf8", (err, data) => {
         console.error("Error writing file:", err);
         return;
       }
-      console.log("✅ IDs added and saved to dresses_with_id.json");
+      console.log("✅ IDs added (continuing from last ID) and saved to dresses_with_id.json");
     });
   } catch (parseError) {
     console.error("Error parsing JSON:", parseError);
