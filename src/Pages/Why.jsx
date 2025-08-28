@@ -1,6 +1,6 @@
 export const Why = () => {
     return (
-        <div className="WhyUs">
+        <div className="WhyUs mt-5">
             <div className="row mx-0">
                 <div className="col-md-3 mb-4 d-flex align-items-center justify-content-center">
                     <h2 className="mediumBold">Why Choose ZyraWear?</h2>

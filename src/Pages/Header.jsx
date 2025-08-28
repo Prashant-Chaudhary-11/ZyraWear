@@ -20,7 +20,7 @@ export const Header = ({ WishlistCount }) => {
           className="d-lg-none border-0 bg-transparent fs-3"
           onClick={() => setMenuOpen(!menuOpen)}
         >
-          <i className="fa-solid fa-bars"></i>
+          <i className={menuOpen ? "fa-solid fa-xmark" : "fa-solid fa-bars"}></i>
         </button>
 
         {/* Desktop Menu */}
@@ -89,58 +89,44 @@ export const Header = ({ WishlistCount }) => {
 
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
-        <div className="d-lg-none mt-3">
+        <div className="d-lg-none h-100 z-3 position-absolute bg-white w-100 start-0 shadow-sm p-3">
           <ul className="list-unstyled">
-            <li className="mb-2">
-              <NavLink to="/" className="navLinks text-dark text-decoration-none" onClick={() => setMenuOpen(false)}>
-                Home
+            <li className="py-2 px-3 border-bottom mobileMenuItem">
+              <NavLink to="/" className="navLinks w-100 d-block text-dark text-decoration-none" onClick={() => setMenuOpen(false)}>
+              <i class=" me-2 fa-regular fa-house"></i> Home
               </NavLink>
             </li>
-            <li className="mb-2">
-              <NavLink to="/shop" className="navLinks text-dark text-decoration-none" onClick={() => setMenuOpen(false)}>
-                Shop
+            <li className="py-2 px-3 border-bottom mobileMenuItem">
+              <NavLink to="/shop" className="navLinks w-100 d-block text-dark text-decoration-none" onClick={() => setMenuOpen(false)}>
+              <i class=" me-2 fa-solid fa-shop"></i> Shop
               </NavLink>
             </li>
-            <li className="mb-2">
-              <NavLink to="/about" className="navLinks text-dark text-decoration-none" onClick={() => setMenuOpen(false)}>
-                About
+            <li className="py-2 px-3 border-bottom mobileMenuItem">
+              <NavLink to="/about" className="navLinks w-100 d-block text-dark text-decoration-none" onClick={() => setMenuOpen(false)}>
+              <i class=" me-2 fa-regular fa-address-card"></i> About
               </NavLink>
             </li>
-            <li className="mb-2">
-              <NavLink to="/contact" className="navLinks text-dark text-decoration-none" onClick={() => setMenuOpen(false)}>
-                Contact
+            <li className="py-2 px-3 border-bottom mobileMenuItem">
+              <NavLink to="/contact" className="navLinks w-100 d-block text-dark text-decoration-none" onClick={() => setMenuOpen(false)}>
+              <i class=" me-2 fa-regular fa-comment-dots"></i> Contact
+              </NavLink>
+            </li>
+            <li className="py-2 px-3 border-bottom mobileMenuItem">
+              <NavLink to="/cart" className="navLinks w-100 d-block text-dark text-decoration-none" onClick={() => setMenuOpen(false)}>
+              <i class=" me-2 fa-brands fa-opencart"></i> Cart
+              </NavLink>
+            </li>
+            <li className="py-2 px-3 border-bottom mobileMenuItem">
+              <NavLink to="/wishlist" className="navLinks w-100 d-block text-dark text-decoration-none" onClick={() => setMenuOpen(false)}>
+              <i class=" me-2 fa-regular fa-heart"></i> Wishlist
+              </NavLink>
+            </li>
+            <li className="py-2 px-3 border-bottom mobileMenuItem">
+              <NavLink to="/signIn" className="navLinks w-100 d-block text-dark text-decoration-none" onClick={() => setMenuOpen(false)}>
+              <i class=" me-2 fa-regular fa-user"></i> Sign In
               </NavLink>
             </li>
           </ul>
-
-          {/* Icons also visible in mobile menu */}
-          <div className="d-flex align-items-center mt-3 justify-content-center gap-3">
-            <NavLink
-                to="/login"
-                className="btn border-0 shadow-none d-flex flex-column align-items-center justify-content-center me-2" onClick={() => setMenuOpen(false)}
-            >
-                <i className="fa-brands fa-opencart"></i>
-                <span className="font12">Cart</span>
-            </NavLink>
-            <NavLink
-                to="/wishlist"
-                className="btn border-0 shadow-none d-flex flex-column align-items-center justify-content-center me-2 position-relative" onClick={() => setMenuOpen(false)}
-            >
-                <span className="position-absolute translate-middle badge rounded-pill bg-danger wishlistBadge">
-                {WishlistCount}
-                <span className="visually-hidden">unread messages</span>
-                </span>
-                <i className="fa-regular fa-heart"></i>
-                <span className="font12">Wishlist</span>
-            </NavLink>
-            <NavLink
-                to="/login"
-                className="btn border-0 shadow-none d-flex flex-column align-items-center justify-content-center" onClick={() => setMenuOpen(false)}
-            >
-                <i className="fa-regular fa-user"></i>
-                <span className="font12">Sign In</span>
-            </NavLink>
-          </div>
         </div>
       )}
     </header>

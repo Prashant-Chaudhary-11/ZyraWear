@@ -1,6 +1,7 @@
 :root {
     --primary-color: #1E1E1E;
     --secondary-color: #F6973F;
+    --secondary-color-hover: #f07300;
     --accent-color: #f7f7f7;
     --text-color: #7b7b7b;
     --light-color: #5c5c5c;
@@ -232,6 +233,25 @@ html {
     border: 1px solid #dee2e6;
     border-color: #dee2e6!important;
 }
+.discount {
+    color: var(--secondary-color-hover);
+    background: linear-gradient(90deg, #ffe8d6, #ffb4a2);
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 12px;
+    font-weight: 900;
+
+    /* Cut bottom-right corner */
+    clip-path: polygon(
+        0 0,     /* top-left */
+        100% 0,  /* top-right */
+        100% 0%,/* near bottom-right */
+        85% 100%,/* cut in */
+        0 100%   /* bottom-left */
+    );
+}
+
+
 /* Wishlist */
 .wishlistContainer{
     padding: 2rem;

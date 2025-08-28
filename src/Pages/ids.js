@@ -16,12 +16,20 @@ fs.readFile("Store.json", "utf8", (err, data) => {
       return item.id && Number.isInteger(item.id) ? Math.max(max, item.id) : max;
     }, 0);
 
-    // Add IDs to items without an ID
-    dresses = dresses.map((item, index) => {
+    // Add IDs and random discount
+    dresses = dresses.map((item) => {
+      // Assign ID if missing
       if (!item.id) {
         maxId += 1;
-        return { id: maxId, ...item };
+        item.id = maxId;
       }
+
+      // Assign random discount between 10–50
+      if (!item.discount) {
+        item.discount = Math.floor(Math.random() * (50 - 10 + 1)) + 10; 
+        // Example: 23 means 23%
+      }
+
       return item;
     });
 
@@ -31,7 +39,7 @@ fs.readFile("Store.json", "utf8", (err, data) => {
         console.error("Error writing file:", err);
         return;
       }
-      console.log("✅ IDs added (continuing from last ID) and saved to dresses_with_id.json");
+      console.log("✅ IDs + random discounts (10–50%) added and saved to dresses_with_id.json");
     });
   } catch (parseError) {
     console.error("Error parsing JSON:", parseError);

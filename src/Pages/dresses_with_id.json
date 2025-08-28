@@ -6,7 +6,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Women Fit & Flare Midi Dress",
-    "price": "985"
+    "price": "985",
+    "discount": 50
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Floral Print Fit & Flare Maxi Dress",
-    "price": "739"
+    "price": "739",
+    "discount": 15
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Flared Sleeves Wrap Maxi Dress",
-    "price": "924"
+    "price": "924",
+    "discount": 30
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Tie and Dye Print Crepe A-Line Midi Puff Sleeve Dress",
-    "price": "1249"
+    "price": "1249",
+    "discount": 18
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Sleeveless A-Line Midi Dress",
-    "price": "2451"
+    "price": "2451",
+    "discount": 40
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Women Solid Sheath Dress",
-    "price": "845"
+    "price": "845",
+    "discount": 20
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Floral Print Fit & Flare Maxi Dress",
-    "price": "739"
+    "price": "739",
+    "discount": 46
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Floral A-Line Midi Ethnic Dress",
-    "price": "890"
+    "price": "890",
+    "discount": 49
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "A-Line Midi Halter Neck Dress",
-    "price": "887"
+    "price": "887",
+    "discount": 34
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Women Layered Dresses",
-    "price": "758"
+    "price": "758",
+    "discount": 13
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Shoulder Straps Bodycon Dress",
-    "price": "1174"
+    "price": "1174",
+    "discount": 15
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Denim Bandeau Midi Dress",
-    "price": "1448"
+    "price": "1448",
+    "discount": 12
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Plus Size V-Neck Maxi Dress",
-    "price": "859"
+    "price": "859",
+    "discount": 19
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Midi Dress",
-    "price": "837"
+    "price": "837",
+    "discount": 21
   },
   {
     "id": 15,
@@ -132,7 +146,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Cotton Fit & Flare Maxi Dress",
-    "price": "959"
+    "price": "959",
+    "discount": 13
   },
   {
     "id": 16,
@@ -141,7 +156,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Bohemian Maxi Dress",
-    "price": "1319"
+    "price": "1319",
+    "discount": 42
   },
   {
     "id": 17,
@@ -150,7 +166,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "One-Shoulder Dress",
-    "price": "1149"
+    "price": "1149",
+    "discount": 33
   },
   {
     "id": 18,
@@ -159,7 +176,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Floral Print Fit & Flare Dress",
-    "price": "695"
+    "price": "695",
+    "discount": 34
   },
   {
     "id": 19,
@@ -168,7 +186,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Mandarin Collar A-Line Dress",
-    "price": "985"
+    "price": "985",
+    "discount": 25
   },
   {
     "id": 20,
@@ -177,7 +196,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Wrap Knee Length Dress",
-    "price": "1274"
+    "price": "1274",
+    "discount": 14
   },
   {
     "id": 21,
@@ -186,7 +206,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Ribbed Bodycon Midi Dress",
-    "price": "702"
+    "price": "702",
+    "discount": 45
   },
   {
     "id": 22,
@@ -195,7 +216,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Printed A-Line Midi Dress",
-    "price": "999"
+    "price": "999",
+    "discount": 24
   },
   {
     "id": 23,
@@ -204,7 +226,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Square Neck Maxi Dress",
-    "price": "1121"
+    "price": "1121",
+    "discount": 36
   },
   {
     "id": 24,
@@ -213,7 +236,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Women Bodycon Midi Dress",
-    "price": "1249"
+    "price": "1249",
+    "discount": 12
   },
   {
     "id": 25,
@@ -222,7 +246,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Floral Print Drop-Waist Dress",
-    "price": "1249"
+    "price": "1249",
+    "discount": 18
   },
   {
     "id": 26,
@@ -231,7 +256,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "A-Line Cotton Midi Dress",
-    "price": "999"
+    "price": "999",
+    "discount": 41
   },
   {
     "id": 27,
@@ -240,7 +266,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Bodycon Midi Dress",
-    "price": "664"
+    "price": "664",
+    "discount": 35
   },
   {
     "id": 28,
@@ -249,7 +276,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Pure Cotton Fit & Flare Dress",
-    "price": "739"
+    "price": "739",
+    "discount": 32
   },
   {
     "id": 29,
@@ -258,7 +286,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "V-Neck Fit & Flare Midi Dress",
-    "price": "890"
+    "price": "890",
+    "discount": 49
   },
   {
     "id": 30,
@@ -267,7 +296,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Fit and Flare Midi Dress",
-    "price": "898"
+    "price": "898",
+    "discount": 27
   },
   {
     "id": 31,
@@ -276,7 +306,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Fit & Flare Maxi Dress",
-    "price": "781"
+    "price": "781",
+    "discount": 46
   },
   {
     "id": 32,
@@ -285,7 +316,8 @@
     "gender": "Women",
     "category": "Women Dresses",
     "Name": "Fit & Flare Flared Sleeve Dress",
-    "price": "974"
+    "price": "974",
+    "discount": 45
   },
   {
     "id": 33,
@@ -294,7 +326,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Crop Top",
-    "price": "376"
+    "price": "376",
+    "discount": 14
   },
   {
     "id": 34,
@@ -303,7 +336,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Sleeveless Tops",
-    "price": "289"
+    "price": "289",
+    "discount": 16
   },
   {
     "id": 35,
@@ -312,7 +346,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Crop Tops",
-    "price": "300"
+    "price": "300",
+    "discount": 15
   },
   {
     "id": 36,
@@ -321,7 +356,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Print Top",
-    "price": "649"
+    "price": "649",
+    "discount": 36
   },
   {
     "id": 37,
@@ -330,7 +366,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Women Solid Crop Top",
-    "price": "995"
+    "price": "995",
+    "discount": 49
   },
   {
     "id": 38,
@@ -339,7 +376,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Women Black Solid Top",
-    "price": "629"
+    "price": "629",
+    "discount": 32
   },
   {
     "id": 39,
@@ -348,7 +386,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Ribbed Top",
-    "price": "492"
+    "price": "492",
+    "discount": 18
   },
   {
     "id": 40,
@@ -357,7 +396,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Top Solid",
-    "price": "2999"
+    "price": "2999",
+    "discount": 16
   },
   {
     "id": 41,
@@ -366,7 +406,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Solid Top",
-    "price": "349"
+    "price": "349",
+    "discount": 12
   },
   {
     "id": 42,
@@ -375,7 +416,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Crop Tops",
-    "price": "271"
+    "price": "271",
+    "discount": 23
   },
   {
     "id": 43,
@@ -384,7 +426,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Sleeveless Tops",
-    "price": "489"
+    "price": "489",
+    "discount": 49
   },
   {
     "id": 44,
@@ -393,7 +436,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Ribbed Ruffles Top",
-    "price": "560"
+    "price": "560",
+    "discount": 48
   },
   {
     "id": 45,
@@ -402,7 +446,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Print Kimono Sleeve Kaftan Top",
-    "price": "599"
+    "price": "599",
+    "discount": 20
   },
   {
     "id": 46,
@@ -411,7 +456,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Women Solid Top",
-    "price": "699"
+    "price": "699",
+    "discount": 12
   },
   {
     "id": 47,
@@ -420,7 +466,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Solid Top",
-    "price": "769"
+    "price": "769",
+    "discount": 48
   },
   {
     "id": 48,
@@ -429,7 +476,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Print Blouson Top",
-    "price": "749"
+    "price": "749",
+    "discount": 19
   },
   {
     "id": 49,
@@ -438,7 +486,8 @@
     "gender": "Women",
     "category": "Women Tops",
     "Name": "Striped Top",
-    "price": "629"
+    "price": "629",
+    "discount": 16
   },
   {
     "id": 50,
@@ -447,7 +496,8 @@
     "gender": "Men",
     "category": "Mens-Tshirt",
     "Name": "Men Brand Logo T-shirt",
-    "price": "2159"
+    "price": "2159",
+    "discount": 50
   },
   {
     "id": 51,
@@ -456,7 +506,8 @@
     "gender": "Men",
     "category": "Mens-Tshirt",
     "Name": "Solid Lounge T-shirt",
-    "price": "454"
+    "price": "454",
+    "discount": 18
   },
   {
     "id": 52,
@@ -465,7 +516,8 @@
     "gender": "Men",
     "category": "Mens-Tshirt",
     "Name": "Solid Lounge T-shirt",
-    "price": "421"
+    "price": "421",
+    "discount": 32
   },
   {
     "id": 53,
@@ -474,7 +526,8 @@
     "gender": "Men",
     "category": "Mens-Tshirt",
     "Name": "Pure Cotton T-shirt",
-    "price": "296"
+    "price": "296",
+    "discount": 35
   },
   {
     "id": 54,
@@ -483,7 +536,8 @@
     "gender": "Men",
     "category": "Mens-Tshirt",
     "Name": "Men Striped T-shirt",
-    "price": "1691"
+    "price": "1691",
+    "discount": 18
   },
   {
     "id": 55,
@@ -492,7 +546,8 @@
     "gender": "Men",
     "category": "Mens-Tshirt",
     "Name": "Men Plus Size T-shirt",
-    "price": "485"
+    "price": "485",
+    "discount": 28
   },
   {
     "id": 56,
@@ -501,7 +556,8 @@
     "gender": "Men",
     "category": "Mens-Tshirt",
     "Name": "Solid Henley Neck Pure Cotton T-shirt",
-    "price": "285"
+    "price": "285",
+    "discount": 39
   },
   {
     "id": 57,
@@ -510,7 +566,8 @@
     "gender": "Men",
     "category": "Mens-Tshirt",
     "Name": "Raw Edge T-shirt",
-    "price": "1000"
+    "price": "1000",
+    "discount": 28
   },
   {
     "id": 58,
@@ -519,7 +576,8 @@
     "gender": "Men",
     "category": "Mens Shirt",
     "Name": "Men Slim Fit Pure Cotton Shirt",
-    "price": "1699"
+    "price": "1699",
+    "discount": 27
   },
   {
     "id": 59,
@@ -528,7 +586,8 @@
     "gender": "Men",
     "category": "Mens Shirt",
     "Name": "Oversized Pocket Relaxed Shirt",
-    "price": "399"
+    "price": "399",
+    "discount": 41
   },
   {
     "id": 60,
@@ -537,7 +596,8 @@
     "gender": "Men",
     "category": "Mens Shirt",
     "Name": "Men Regular Check Casual Shirt",
-    "price": "739"
+    "price": "739",
+    "discount": 31
   },
   {
     "id": 61,
@@ -546,7 +606,8 @@
     "gender": "Men",
     "category": "Mens Shirt",
     "Name": "Men Self Design Cotton Shirt",
-    "price": "1549"
+    "price": "1549",
+    "discount": 11
   },
   {
     "id": 62,
@@ -555,7 +616,8 @@
     "gender": "Men",
     "category": "Mens Shirt",
     "Name": "Cotton Slim Fit Casual Shirt",
-    "price": "699"
+    "price": "699",
+    "discount": 25
   },
   {
     "id": 63,
@@ -564,7 +626,8 @@
     "gender": "Men",
     "category": "Mens Shirt",
     "Name": "Regular Fit Short-SleevedShirt",
-    "price": "919"
+    "price": "919",
+    "discount": 46
   },
   {
     "id": 64,
@@ -573,7 +636,8 @@
     "gender": "Men",
     "category": "Mens Shirt",
     "Name": "Men Printed Casual Shirt",
-    "price": "1299"
+    "price": "1299",
+    "discount": 43
   },
   {
     "id": 65,
@@ -582,7 +646,8 @@
     "gender": "Men",
     "category": "Mens Shirt",
     "Name": "Opaque Casual Shirt",
-    "price": "749"
+    "price": "749",
+    "discount": 10
   },
   {
     "id": 66,
@@ -591,7 +656,8 @@
     "gender": "Men",
     "category": "Mens Shirt",
     "Name": "Men Checked Casual Shirt",
-    "price": "917"
+    "price": "917",
+    "discount": 41
   },
   {
     "id": 67,
@@ -600,7 +666,8 @@
     "gender": "Men",
     "category": "Mens Shirt",
     "Name": "Linen-Cotton Casual Shirt",
-    "price": "1160"
+    "price": "1160",
+    "discount": 16
   },
   {
     "id": 68,
@@ -609,7 +676,8 @@
     "gender": "Men",
     "category": "Mens Shirt",
     "Name": "Slim Fit Corduroy Casual Shirt",
-    "price": "699"
+    "price": "699",
+    "discount": 46
   },
   {
     "id": 69,
@@ -618,7 +686,8 @@
     "gender": "Men",
     "category": "Mens Shirt",
     "Name": "Men Slim Fit Casual Shirt",
-    "price": "699"
+    "price": "699",
+    "discount": 42
   },
   {
     "id": 70,
@@ -627,7 +696,8 @@
     "gender": "Men",
     "category": "Mens Shirt",
     "Name": "Men Cotton Casual Shirt",
-    "price": "619"
+    "price": "619",
+    "discount": 21
   },
   {
     "id": 71,
@@ -636,7 +706,8 @@
     "gender": "Women",
     "category": "Women Jeans",
     "Name": "Women Wide Leg Jeans",
-    "price": "Rs. 769"
+    "price": "769",
+    "discount": 36
   },
   {
     "id": 72,
@@ -645,7 +716,8 @@
     "gender": "Women",
     "category": "Women Jeans",
     "Name": "Women Wide Leg High-Rise Jeans",
-    "price": "Rs. 813"
+    "price": "813",
+    "discount": 37
   },
   {
     "id": 73,
@@ -654,7 +726,8 @@
     "gender": "Women",
     "category": "Women Jeans",
     "Name": "Women Wide Leg Mid-Rise Jeans",
-    "price": "Rs. 1035"
+    "price": "1035",
+    "discount": 37
   },
   {
     "id": 74,
@@ -663,7 +736,8 @@
     "gender": "Women",
     "category": "Women Jeans",
     "Name": "Women High-Rise Jeans",
-    "price": "Rs. 725"
+    "price": "725",
+    "discount": 18
   },
   {
     "id": 75,
@@ -672,7 +746,8 @@
     "gender": "Women",
     "category": "Women Jeans",
     "Name": "Women Straight Fit High-Rise Jeans",
-    "price": "Rs. 3999"
+    "price": "3999",
+    "discount": 23
   },
   {
     "id": 76,
@@ -681,7 +756,8 @@
     "gender": "Women",
     "category": "Women Jeans",
     "Name": "Women Bootcut Mid-Rise Jeans",
-    "price": "Rs. 827"
+    "price": "827",
+    "discount": 41
   },
   {
     "id": 77,
@@ -690,7 +766,8 @@
     "gender": "Women",
     "category": "Women Jeans",
     "Name": "Women Wide Leg High-Rise Jeans",
-    "price": "Rs. 719"
+    "price": "719",
+    "discount": 34
   },
   {
     "id": 78,
@@ -699,7 +776,8 @@
     "gender": "Women",
     "category": "Women Jeans",
     "Name": "Women Bootcut High-Rise Jeans",
-    "price": "Rs. 999"
+    "price": "999",
+    "discount": 24
   },
   {
     "id": 79,
@@ -708,7 +786,8 @@
     "gender": "Women",
     "category": "Women Jeans",
     "Name": "Woman High-Rise Straight Jeans",
-    "price": "Rs. 735"
+    "price": "735",
+    "discount": 16
   },
   {
     "id": 80,
@@ -717,7 +796,8 @@
     "gender": "Women",
     "category": "Women Jeans",
     "Name": "Women Bootcut High-Rise Jeans",
-    "price": "Rs. 874"
+    "price": "874",
+    "discount": 29
   },
   {
     "id": 81,
@@ -726,106 +806,118 @@
     "gender": "Women",
     "category": "Women Jeans",
     "Name": "Women Flared High-Rise Jeans",
-    "price": "Rs. 734"
+    "price": "734",
+    "discount": 14
   },
   {
     "id": 82,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/33279038/2025/7/1/a0c6aca7-1832-4578-9c30-3ea0876274c51751378781064-Flying-Machine-F-Lite-Men-Slim-Fit-Mid-Rise-Stretchable-Jean-1.jpg",
     "brand": "Flying Machine",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Jeans",
     "Name": "Men Slim Fit Jeans",
-    "price": "Rs. 1709"
+    "price": "1709",
+    "discount": 25
   },
   {
     "id": 83,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/25756710/2024/3/7/e83c4cde-04c0-44da-b150-b6cf3f7c4be31709812502433-Levis-Men-Jeans-8901709812501907-1.jpg",
     "brand": "Levis",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Jeans",
     "Name": "Men Slim Tapered Fit Jeans",
-    "price": "Rs. 1589"
+    "price": "1589",
+    "discount": 28
   },
   {
     "id": 84,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/26148318/2023/11/30/5b14bcc8-bb37-4481-964d-2cd66ae07f3d1701341759845HERENOWMenBlackSmartBootcutLightFadeStretchableJeans1.jpg",
     "brand": "HERE&NOW",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Jeans",
     "Name": "Men Bootcut Jeans",
-    "price": "Rs. 749"
+    "price": "749",
+    "discount": 49
   },
   {
     "id": 85,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MAY/26/6DE0tKii_e3a871e8a13a463ba349a63598891647.jpg",
     "brand": "Roadster",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Jeans",
     "Name": "Men Baggy Fit Jeans",
-    "price": "Rs. 895"
+    "price": "895",
+    "discount": 27
   },
   {
     "id": 86,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/32306266/2025/1/11/37c4a5fe-8532-4bbe-87e1-63c025d834711736596672512CalvinKleinJeansMenSlimFitLowDistressHeavyFadeJeans1.jpg",
     "brand": "Calvin Klein Jeans",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Jeans",
     "Name": "Men Slim Fit Jeans",
-    "price": "Rs. 6749"
+    "price": "6749",
+    "discount": 48
   },
   {
     "id": 87,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/31596475/2025/4/11/dc3049bb-38e9-453f-829e-13a90b4434c91744365232806-glitchez-Men-Jeans-7801744365232154-1.jpg",
     "brand": "glitchez",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Jeans",
     "Name": "Men Loose Jeans",
-    "price": "Rs. 725"
+    "price": "725",
+    "discount": 27
   },
   {
     "id": 88,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/28088732/2024/3/7/8725bb21-5d95-447a-ba5f-c92df7aa98821709791242918TheIndianGarageCoMenRelaxedFitLowDistressLightFadeJeans1.jpg",
     "brand": "The Indian Garage Co",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Jeans",
     "Name": "Men Relaxed Fit Jeans",
-    "price": "Rs. 808"
+    "price": "808",
+    "discount": 46
   },
   {
     "id": 89,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/29239786/2024/6/4/a88a3707-e2c4-4e3d-a3a5-00fdc629da7e1717484522541-Levis-Men-Jeans-6771717484521992-1.jpg",
     "brand": "Levis",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Jeans",
     "Name": "Men Slim Fit Jeans",
-    "price": "Rs. 1375"
+    "price": "1375",
+    "discount": 14
   },
   {
     "id": 90,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/24633728/2023/9/5/6c6c1ca5-13ff-4ec8-9d04-4fb2c97f79971693910829956-HERENOW-Men-Jeans-6501693910829402-1.jpg",
     "brand": "HERE&NOW",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Jeans",
     "Name": "Bootcut Jeans",
-    "price": "Rs. 857"
+    "price": "857",
+    "discount": 36
   },
   {
     "id": 91,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/30292932/2024/7/30/cb959b23-5f4b-4bcf-afa8-da1d72760c681722332561857-Mast--Harbour-Men-Jeans-4321722332561241-1.jpg",
     "brand": "Mast & Harbour",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Jeans",
     "Name": "Men Relaxed Fit Jeans",
-    "price": "Rs. 819"
+    "price": "819",
+    "discount": 23
   },
   {
     "id": 92,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MARCH/31/unYTFgzd_2c14642044e549acbaf3f54ac8fcd9c5.jpg",
     "brand": "SELECTED",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Jeans",
     "Name": "Men Bootcut Jeans",
-    "price": "Rs. 4549"
+    "price": "4549",
+    "discount": 47
   },
   {
     "id": 93,
@@ -834,7 +926,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Pure Cotton T-shirt",
-    "price": "Rs. 251"
+    "price": "251",
+    "discount": 18
   },
   {
     "id": 94,
@@ -843,7 +936,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Printed Relaxed Cotton T-shirt",
-    "price": "Rs. 419"
+    "price": "419",
+    "discount": 29
   },
   {
     "id": 95,
@@ -852,7 +946,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Printed Cotton T-Shirt",
-    "price": "Rs. 639"
+    "price": "639",
+    "discount": 18
   },
   {
     "id": 96,
@@ -861,7 +956,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Relaxed Fit V-Neck T-shirt",
-    "price": "Rs. 440"
+    "price": "440",
+    "discount": 26
   },
   {
     "id": 97,
@@ -870,7 +966,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Women Printed Loose T-shirt",
-    "price": "Rs. 376"
+    "price": "376",
+    "discount": 46
   },
   {
     "id": 98,
@@ -879,7 +976,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Net Cotton T-shirt",
-    "price": "Rs. 341"
+    "price": "341",
+    "discount": 23
   },
   {
     "id": 99,
@@ -888,7 +986,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Women Self Design T-shirt",
-    "price": "Rs. 750"
+    "price": "750",
+    "discount": 22
   },
   {
     "id": 100,
@@ -897,7 +996,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Pure Cotton T-shirt",
-    "price": "Rs. 419"
+    "price": "419",
+    "discount": 28
   },
   {
     "id": 101,
@@ -906,7 +1006,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Women Biker Printed Applique T-shirt",
-    "price": "Rs. 599"
+    "price": "599",
+    "discount": 35
   },
   {
     "id": 102,
@@ -915,7 +1016,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Muscle Flex Training T-shirt",
-    "price": "Rs. 699"
+    "price": "699",
+    "discount": 16
   },
   {
     "id": 103,
@@ -924,7 +1026,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Printed Round Neck Pure Cotton T-shirt",
-    "price": "Rs. 182"
+    "price": "182",
+    "discount": 20
   },
   {
     "id": 104,
@@ -933,7 +1036,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Rapid-Dry Training T-shirt",
-    "price": "Rs. 286"
+    "price": "286",
+    "discount": 12
   },
   {
     "id": 105,
@@ -942,7 +1046,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Women Printed T-shirt",
-    "price": "Rs. 391"
+    "price": "391",
+    "discount": 34
   },
   {
     "id": 106,
@@ -951,7 +1056,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Cotton Oversized Fit T-shirt",
-    "price": "Rs. 539"
+    "price": "539",
+    "discount": 26
   },
   {
     "id": 107,
@@ -960,7 +1066,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Women Pure Cotton T-shirt",
-    "price": "Rs. 234"
+    "price": "234",
+    "discount": 27
   },
   {
     "id": 108,
@@ -969,7 +1076,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Pure Cotton Oversized T-shirt",
-    "price": "Rs. 362"
+    "price": "362",
+    "discount": 26
   },
   {
     "id": 109,
@@ -978,7 +1086,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Women Printed Oversized Tshirt",
-    "price": "Rs. 371"
+    "price": "371",
+    "discount": 33
   },
   {
     "id": 110,
@@ -987,7 +1096,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Oversized Fit Cotton T-shirt",
-    "price": "Rs. 539"
+    "price": "539",
+    "discount": 28
   },
   {
     "id": 111,
@@ -996,7 +1106,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Solid Round Neck T-shirt",
-    "price": "Rs. 221"
+    "price": "221",
+    "discount": 49
   },
   {
     "id": 112,
@@ -1005,7 +1116,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Varsity Oversized Tshirt",
-    "price": "Rs. 419"
+    "price": "419",
+    "discount": 44
   },
   {
     "id": 113,
@@ -1014,7 +1126,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Printed Oversized T-Shirt",
-    "price": "Rs. 639"
+    "price": "639",
+    "discount": 48
   },
   {
     "id": 114,
@@ -1023,7 +1136,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Pure Cotton T-shirt",
-    "price": "Rs. 269"
+    "price": "269",
+    "discount": 22
   },
   {
     "id": 115,
@@ -1032,7 +1146,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Striped Polo Collar T-shirt",
-    "price": "Rs. 376"
+    "price": "376",
+    "discount": 24
   },
   {
     "id": 116,
@@ -1041,7 +1156,8 @@
     "gender": "Women",
     "category": "Women Tshirt",
     "Name": "Women Printed T-shirt",
-    "price": "Rs. 433"
+    "price": "433",
+    "discount": 13
   },
   {
     "id": 117,
@@ -1050,7 +1166,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Embroidered Kurta Set",
-    "price": "Rs. 2499"
+    "price": "2499",
+    "discount": 24
   },
   {
     "id": 118,
@@ -1059,7 +1176,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Bandhani Pure Silk Saree",
-    "price": "Rs. 1559"
+    "price": "1559",
+    "discount": 12
   },
   {
     "id": 119,
@@ -1068,7 +1186,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Mid-Rise Ankle-Length Leggings",
-    "price": "Rs. 503"
+    "price": "503",
+    "discount": 44
   },
   {
     "id": 120,
@@ -1077,7 +1196,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Embellished Net Saree",
-    "price": "Rs. 1999"
+    "price": "1999",
+    "discount": 13
   },
   {
     "id": 121,
@@ -1086,7 +1206,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Panelled Anarkali Kurta",
-    "price": "Rs. 1385"
+    "price": "1385",
+    "discount": 12
   },
   {
     "id": 122,
@@ -1095,7 +1216,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Poly Chiffon Saree",
-    "price": "Rs. 2399"
+    "price": "2399",
+    "discount": 21
   },
   {
     "id": 123,
@@ -1104,7 +1226,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Floral Embroidered Kurta Set",
-    "price": "Rs. 2481"
+    "price": "2481",
+    "discount": 37
   },
   {
     "id": 124,
@@ -1113,7 +1236,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Kurta with Trousers & Dupatta",
-    "price": "Rs. 2699"
+    "price": "2699",
+    "discount": 50
   },
   {
     "id": 125,
@@ -1122,7 +1246,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Printed Anarkali Kurta Set",
-    "price": "Rs. 2255"
+    "price": "2255",
+    "discount": 35
   },
   {
     "id": 126,
@@ -1131,7 +1256,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Embroidered Sarees",
-    "price": "Rs. 2239"
+    "price": "2239",
+    "discount": 38
   },
   {
     "id": 127,
@@ -1140,7 +1266,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Women Embroidered Kurta with Sharara With Dupatta",
-    "price": "Rs. 3650"
+    "price": "3650",
+    "discount": 22
   },
   {
     "id": 128,
@@ -1149,7 +1276,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Ready to Wear Lehenga Choli",
-    "price": "Rs. 2001"
+    "price": "2001",
+    "discount": 29
   },
   {
     "id": 129,
@@ -1158,7 +1286,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "A-Line Kurti Sharara & Dupatta",
-    "price": "Rs. 1274"
+    "price": "1274",
+    "discount": 39
   },
   {
     "id": 130,
@@ -1167,7 +1296,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Bandhani Poly Georgette Saree",
-    "price": "Rs. 1519"
+    "price": "1519",
+    "discount": 15
   },
   {
     "id": 131,
@@ -1176,7 +1306,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Sweetheart Neck Anarkali Kurta",
-    "price": "Rs. 1298"
+    "price": "1298",
+    "discount": 42
   },
   {
     "id": 132,
@@ -1185,7 +1316,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Ombre Embroidered Sarees",
-    "price": "Rs. 1999"
+    "price": "1999",
+    "discount": 48
   },
   {
     "id": 133,
@@ -1194,7 +1326,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Women Anarkali Kurta",
-    "price": "Rs. 1499"
+    "price": "1499",
+    "discount": 43
   },
   {
     "id": 134,
@@ -1203,7 +1336,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Embroidered Kurta Set",
-    "price": "Rs. 2399"
+    "price": "2399",
+    "discount": 41
   },
   {
     "id": 135,
@@ -1212,7 +1346,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Green Organza Saree",
-    "price": "Rs. 5399"
+    "price": "5399",
+    "discount": 42
   },
   {
     "id": 136,
@@ -1221,7 +1356,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Women Embroidered Maxi Dress",
-    "price": "Rs. 1994"
+    "price": "1994",
+    "discount": 42
   },
   {
     "id": 137,
@@ -1230,7 +1366,8 @@
     "gender": "Women",
     "category": "Women Ethenic",
     "Name": "Women Kurta with Trousers With Dupatta",
-    "price": "Rs. 3199"
+    "price": "3199",
+    "discount": 20
   },
   {
     "id": 138,
@@ -1239,7 +1376,8 @@
     "gender": "Women",
     "category": "Women Saree",
     "Name": "Embellished Georgette Saree",
-    "price": "Rs. 1599"
+    "price": "1599",
+    "discount": 38
   },
   {
     "id": 139,
@@ -1248,7 +1386,8 @@
     "gender": "Women",
     "category": "Women Saree",
     "Name": "Bandhani Pure Silk Saree",
-    "price": "Rs. 1559"
+    "price": "1559",
+    "discount": 24
   },
   {
     "id": 140,
@@ -1257,7 +1396,8 @@
     "gender": "Women",
     "category": "Women Saree",
     "Name": "Woven Design Banarasi Pure Silk Saree",
-    "price": "Rs. 1739"
+    "price": "1739",
+    "discount": 18
   },
   {
     "id": 141,
@@ -1266,7 +1406,8 @@
     "gender": "Women",
     "category": "Women Saree",
     "Name": "Embellished Net Saree",
-    "price": "Rs. 1999"
+    "price": "1999",
+    "discount": 28
   },
   {
     "id": 142,
@@ -1275,7 +1416,8 @@
     "gender": "Women",
     "category": "Women Saree",
     "Name": "Poly Chiffon Saree",
-    "price": "Rs. 2399"
+    "price": "2399",
+    "discount": 49
   },
   {
     "id": 143,
@@ -1284,7 +1426,8 @@
     "gender": "Women",
     "category": "Women Saree",
     "Name": "Woven Design Kanjeevaram Saree",
-    "price": "Rs. 1739"
+    "price": "1739",
+    "discount": 32
   },
   {
     "id": 144,
@@ -1293,7 +1436,8 @@
     "gender": "Women",
     "category": "Women Saree",
     "Name": "Embroidered Sarees",
-    "price": "Rs. 2239"
+    "price": "2239",
+    "discount": 29
   },
   {
     "id": 145,
@@ -1302,7 +1446,8 @@
     "gender": "Women",
     "category": "Women Saree",
     "Name": "Organza Saree",
-    "price": "Rs. 1724"
+    "price": "1724",
+    "discount": 44
   },
   {
     "id": 146,
@@ -1311,7 +1456,8 @@
     "gender": "Women",
     "category": "Women Saree",
     "Name": "Woven Design Pochampally Pure Silk Saree",
-    "price": "Rs. 1932"
+    "price": "1932",
+    "discount": 21
   },
   {
     "id": 147,
@@ -1320,7 +1466,8 @@
     "gender": "Women",
     "category": "Women Saree",
     "Name": "Sequinned Pure Georgette Saree",
-    "price": "Rs. 3899"
+    "price": "3899",
+    "discount": 16
   },
   {
     "id": 148,
@@ -1329,7 +1476,8 @@
     "gender": "Women",
     "category": "Women Saree",
     "Name": "Pure Georgette Saree",
-    "price": "Rs. 1999"
+    "price": "1999",
+    "discount": 21
   },
   {
     "id": 149,
@@ -1338,7 +1486,8 @@
     "gender": "Women",
     "category": "Women Saree",
     "Name": "Bandhani Poly Georgette Saree",
-    "price": "Rs. 1519"
+    "price": "1519",
+    "discount": 18
   },
   {
     "id": 150,
@@ -1347,330 +1496,367 @@
     "gender": "Women",
     "category": "Women Saree",
     "Name": "Floral Pure Georgette Saree",
-    "price": "Rs. 2499"
+    "price": "2499",
+    "discount": 34
   },
   {
     "id": 151,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/29550604/2024/5/16/34e1f964-cde3-4cb2-989d-8c55bfc311931715814376732ArrowSingle-BreastedSlim-FitCasualBlazer1.jpg",
     "brand": "Arrow",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Single Breasted Formal Blazer",
-    "price": "Rs. 3779"
+    "price": "3779",
+    "discount": 27
   },
   {
     "id": 152,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/32928460/2025/4/24/6f41aa80-6844-44ed-8891-6d55d5dd9a4d1745491569428-INVICTUS-Men-Blazers-5131745491568886-1.jpg",
     "brand": "INVICTUS",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Slim Fit Semiformal Blazer",
-    "price": "Rs. 3267"
+    "price": "3267",
+    "discount": 48
   },
   {
     "id": 153,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/31100599/2024/11/25/537e6331-eb19-4c38-b846-063563ac34861732529530469-Mr-Bowerbird-Men-Blazers-2311732529529900-1.jpg",
     "brand": "Mr Bowerbird",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Tailored Fit Casual Blazer",
-    "price": "Rs. 3999"
+    "price": "3999",
+    "discount": 17
   },
   {
     "id": 154,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/28092576/2024/3/7/fc7b39fe-1906-425c-a756-698b15000d9d1709800597884HeatheredTwillSlimBlazer1.jpg",
     "brand": "Arrow",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Self-Design Slim-Fit Blazer",
-    "price": "Rs. 3779"
+    "price": "3779",
+    "discount": 29
   },
   {
     "id": 155,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/32928443/2025/4/25/bed1852d-2b06-41ee-a44a-0f77879551af1745557483475-INVICTUS-Men-Blazers-7721745557482922-3.jpg",
     "brand": "INVICTUS",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Slim Fit Smart Casual Blazer",
-    "price": "Rs. 3267"
+    "price": "3267",
+    "discount": 35
   },
   {
     "id": 156,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10777836/2019/10/16/d9ae4409-16a9-4f7e-83b1-2022d3bf353c1571215965504-MANQ-Men-Blazers-6291571215962908-1.jpg",
     "brand": "MANQ",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Men Slim Fit Formal Blazer",
-    "price": "Rs. 2459"
+    "price": "2459",
+    "discount": 47
   },
   {
     "id": 157,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/30102973/2024/11/14/e2b9d490-a7f7-4ca6-8d09-7cbe45b88f0b1731557181530-Mast--Harbour-Notched-Lapel-Single-Breasted-Semiformal-Blaze-1.jpg",
     "brand": "Mast & Harbour",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Single-Breasted Blazer",
-    "price": "Rs. 2729"
+    "price": "2729",
+    "discount": 44
   },
   {
     "id": 158,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/28519034/2024/3/26/a0d81609-8f72-4c08-8289-af3332cc9f541711463696318MenBeigeTexturedUltraSlimFitFormalBlazer1.jpg",
     "brand": "Van Heusen",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Single Breasted Formal Blazer",
-    "price": "Rs. 3639"
+    "price": "3639",
+    "discount": 34
   },
   {
     "id": 159,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2024/OCTOBER/25/rPtwMLCV_bb22b0a46cfd43cabbf2a2d78227f82d.jpg",
     "brand": "Arrow",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Single-Breasted Formal Blazers",
-    "price": "Rs. 3599"
+    "price": "3599",
+    "discount": 25
   },
   {
     "id": 160,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/32045769/2024/12/21/16e57723-1386-44b2-9c8d-21019b6ecee31734758193521TurtleMenKnittedCasualBlackBlazer1.jpg",
     "brand": "Turtle",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Single Breasted Blazer",
-    "price": "Rs. 2999"
+    "price": "2999",
+    "discount": 23
   },
   {
     "id": 161,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/32928454/2025/4/15/708b4426-a064-4770-88f1-b10366281cb41744710848185-INVICTUS-Men-Blazers-811744710847691-1.jpg",
     "brand": "INVICTUS",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Slim Fit Smart Casual Blazer",
-    "price": "Rs. 3267"
+    "price": "3267",
+    "discount": 24
   },
   {
     "id": 162,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10777800/2019/10/16/a4f4318f-91db-492a-86ca-748041561caf1571221022026-MANQ-Men-Blazers-8421571221019509-1.jpg",
     "brand": "MANQ",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Men Slim Fit Formal Blazer",
-    "price": "Rs. 2459"
+    "price": "2459",
+    "discount": 50
   },
   {
     "id": 163,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/32928455/2025/4/25/f806da30-ddcf-4fd1-a2dd-b12e339e2d981745556497688-INVICTUS-Men-Blazers-8581745556497087-1.jpg",
     "brand": "INVICTUS",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Men Striped Slim-Fit Blazer",
-    "price": "Rs. 3267"
+    "price": "3267",
+    "discount": 12
   },
   {
     "id": 164,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/32928448/2025/4/25/84260025-7b67-40f8-95a3-012bd747fede1745556478829-INVICTUS-Men-Blazers-9931745556478313-1.jpg",
     "brand": "INVICTUS",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Men Slim Smart Casual Blazer",
-    "price": "Rs. 3267"
+    "price": "3267",
+    "discount": 18
   },
   {
     "id": 165,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/29130880/2024/12/13/0e5b17c4-52f7-46fd-9830-2b4ea2c70b391734105268830-KISAH-Men-Self-Design-Jodhpuri-Slim-Fit-Bandhgala-Blazer-401-1.jpg",
     "brand": "KISAH",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Self-Designed Bandhgala Blazer",
-    "price": "Rs. 4320"
+    "price": "4320",
+    "discount": 12
   },
   {
     "id": 166,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/10777806/2019/10/16/e5ac0f35-579c-4ce8-9e90-4288068e17221571215957443-MANQ-Men-Blazers-1871571215954534-1.jpg",
     "brand": "MANQ",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Men Slim Fit Formal Blazer",
-    "price": "Rs. 2459"
+    "price": "2459",
+    "discount": 16
   },
   {
     "id": 167,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/32242906/2025/1/7/2975a90e-9957-4aae-afab-9e6b8510245b1736254296316Blazer1.jpg",
     "brand": "Allen Solly",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Single Breasted Blazer",
-    "price": "Rs. 3499"
+    "price": "3499",
+    "discount": 48
   },
   {
     "id": 168,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/28984320/2024/10/10/24290315-8d22-44ad-8862-29509265033d1728552926600-INVICTUS-Men-Blazers-7251728552926033-1.jpg",
     "brand": "INVICTUS",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Coat",
     "Name": "Single-Breasted Slim Blazer",
-    "price": "Rs. 3292"
+    "price": "3292",
+    "discount": 19
   },
   {
     "id": 169,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/23119268/2023/5/19/402af633-1ed8-43a1-b9fd-60adb3488bf21684474558714-Men-Indigo-Printed-short-Kurta-6511684474558337-1.jpg",
     "brand": "Anouk",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Men Geometric Printed Short Kurta",
-    "price": "Rs. 681"
+    "price": "681",
+    "discount": 50
   },
   {
     "id": 170,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/28932986/2024/4/15/de378498-9247-45b8-81a5-c309cc0fc5721713166779195JompersMenEthnicMotifsPathaniKurta1.jpg",
     "brand": "Jompers",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Embroidered Straight Kurta",
-    "price": "Rs. 987"
+    "price": "987",
+    "discount": 25
   },
   {
     "id": 171,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/APRIL/10/itvEIzCO_18861d9cc1f24056989a69af9fd3e4e0.jpg",
     "brand": "Anouk",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Pure Cotton Straight Kurta",
-    "price": "Rs. 1119"
+    "price": "1119",
+    "discount": 34
   },
   {
     "id": 172,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/20825170/2024/12/24/49b5e624-d02c-4bf5-bc2b-b37226d7c7431735049748316-SOJANYA-Men-Cream-Coloured-Geometric-Printed-Kurta-366173504-1.jpg",
     "brand": "SOJANYA",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Men Geometric Printed Kurta",
-    "price": "Rs. 964"
+    "price": "964",
+    "discount": 49
   },
   {
     "id": 173,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/27736992/2024/6/6/924e9b21-70cf-4fe8-a8e1-0d509a4d76d11717665654451-HERENOW-Men-Striped-Flared-Sleeves-Thread-Work-Kurta-2741717-6.jpg",
     "brand": "HERE&NOW",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Men Striped Kurta",
-    "price": "Rs. 615"
+    "price": "615",
+    "discount": 18
   },
   {
     "id": 174,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/35511036/2025/7/18/b4b937f5-1c82-40b8-9534-5c404f93b4571752822188524-FILORI-STUDIO-Striped-Mandarin-Collar-Roll-Up-Sleeves-Short--1.jpg",
     "brand": "FILORI STUDIO",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Striped Short Kurta",
-    "price": "Rs. 1349"
+    "price": "1349",
+    "discount": 32
   },
   {
     "id": 175,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/22893384/2023/5/2/ac5deef1-d63d-48fb-a8e3-ab94f74251361683021397062-Anouk-Men-Kurtas-3671683021396652-1.jpg",
     "brand": "Anouk",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Men Printed Short Kurta",
-    "price": "Rs. 703"
+    "price": "703",
+    "discount": 12
   },
   {
     "id": 176,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2024/AUGUST/20/TUJvKDIa_bc8b5e64be4e41e5a8550473e9e75c43.jpg",
     "brand": "Jompers",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Embroidered Cotton Silk Kurta",
-    "price": "Rs. 962"
+    "price": "962",
+    "discount": 26
   },
   {
     "id": 177,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MAY/13/MhB2yfai_988d42c16c9149a382fe3a97f056d329.jpg",
     "brand": "House of Pataudi",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Embroidered Straight Kurta",
-    "price": "Rs. 1399"
+    "price": "1399",
+    "discount": 22
   },
   {
     "id": 178,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/29208090/2024/4/26/cccf7233-ffd0-4aad-a296-d3f3d061bce71714130336140MensRayonEthnicMotifPrinedStraightKurta6.jpg",
     "brand": "House of Pataudi",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Embroidered Sequins Kurta",
-    "price": "Rs. 809"
+    "price": "809",
+    "discount": 45
   },
   {
     "id": 179,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/25640954/2023/11/10/7a99c223-9a9d-42f6-a2f7-e77f6c61573c1699600554337-HERENOW-Men-Kurtas-4771699600553879-1.jpg",
     "brand": "HERE&NOW",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Men Woven Design Kurta",
-    "price": "Rs. 399"
+    "price": "399",
+    "discount": 23
   },
   {
     "id": 180,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/21074510/2023/1/6/b10490b1-38a4-451b-8d63-c3a02e13e40b1672996804518-Anouk-Men-Kurtas-5511672996803951-1.jpg",
     "brand": "Anouk",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Men Pure Cotton Short Kurta",
-    "price": "Rs. 659"
+    "price": "659",
+    "discount": 11
   },
   {
     "id": 181,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/29102934/2024/4/23/233cad9f-765e-4869-bae9-41b80c547e6a1713857663669JompersMenMirrorWorkKurta1.jpg",
     "brand": "Jompers",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Embroidered Cotton Silk Kurta",
-    "price": "Rs. 962"
+    "price": "962",
+    "discount": 11
   },
   {
     "id": 182,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/33942049/2025/7/18/f9471cb0-3742-4c16-abf0-d2204489e4791752835769384-Anouk-Rustic-Men-Kurtas-6771752835768637-1.jpg",
     "brand": "Anouk Rustic",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Printed Roll-Up Sleeves Kurta",
-    "price": "Rs. 543"
+    "price": "543",
+    "discount": 16
   },
   {
     "id": 183,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/24097424/2023/7/27/407fc6f3-9127-4622-9fcb-6cca28ccf6f81690458281114-Mens-Wear-Pink-Rayon-Chikankari-sequinned-embroidered-kurta--1.jpg",
     "brand": "HERE&NOW",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Men Embroidered Kurta",
-    "price": "Rs. 919"
+    "price": "919",
+    "discount": 29
   },
   {
     "id": 184,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/28532728/2024/3/27/b7b43a96-a76c-4b10-a33e-0b60050ddf331711533084685AnoukMenGeometricAnarkaliKurta6.jpg",
     "brand": "Anouk",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Geometric Sequinned Kurta",
-    "price": "Rs. 899"
+    "price": "899",
+    "discount": 27
   },
   {
     "id": 185,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/22708162/2023/4/8/d39d058b-7aaf-436c-99ba-4c01bab142951680953907387EmbroideredKurtas1.jpg",
     "brand": "Jompers",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Mandarin Collar Kurta",
-    "price": "Rs. 895"
+    "price": "895",
+    "discount": 29
   },
   {
     "id": 186,
     "Image": "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/2024/SEPTEMBER/25/yOpMfhl8_f01d6724e0914f939f24673c025eb0cc.jpg",
     "brand": "Vida Loca",
-    "gender": "Mens",
+    "gender": "Men",
     "category": "Mens Ethenic",
     "Name": "Men Kurta",
-    "price": "Rs. 449"
+    "price": "449",
+    "discount": 22
   }
 ]

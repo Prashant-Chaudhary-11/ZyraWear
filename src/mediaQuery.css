@@ -3,4 +3,32 @@
   .topImageHome, .cardImageShop{
     height: 17rem!important;
   }
+  .font14{
+    font-size: 13px!important;
+  }
+  .font13{
+    font-size: 12px!important;
+  }
+  .font12{
+    font-size: 11px!important;
+  }
+  .shopCardTitle{
+    font-size: 14px!important;
+    line-height: 0.9!important;
+  }
+  .shopPrice{
+    font-size: 13px!important;
+  }
+  .discount{
+    font-size: 11px!important;
+  }
+  .mobileMenuItem{
+    font-size: 16px!important;
+  }
+  .mobileMenuItem:has(.navLinks.active) {
+    background-color: #F6973F;
+  }
+  .navLinks.active{
+    color: white!important;
+  }
 }

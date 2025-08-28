@@ -212,38 +212,40 @@ export const Shop = ({ onWishlistChange }) => {
                 </div>
 
                 {/* Product Cards */}
-                <div className="col-lg-9 col-md-8 col-sm-12 mb-4 border-top pt-3">
+                <div className="col-lg-9 col-md-8 col-sm-12 mb-4 border-top pt-3 px-1">
                     <div className="row mx-0">
                         {filteredData.map((item, index) => (
-                            <div key={index} className="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
-                                <div className="card shadow-sm h-100 shopCards border-0">
+                            <div key={index} className="col-lg-3 col-md-4 col-sm-6 col-6 mb-2 px-1">
+                                <div className="card  h-100 shopCards border-0">
                                     <img
                                         src={item.Image}
-                                        className="card-img-top cardImageShop"
+                                        className="card-img-top cardImageShop rounded"
                                         alt={item.Name}
-                                        style={{ height: "19rem", objectFit: "cover" }}
+                                        style={{ height: "22rem", objectFit: "cover" }}
                                     />
-                                    <div className="card-body">
-                                        <h6 className="card-title font13 m-0">{item.brand}</h6>
-                                        <p className="small text-muted font14 text-truncate">{item.Name}</p>
-                                        <div className="d-flex justify-content-between align-items-center mt-2">
-                                            <p className="fw-bold m-0">₹{item.price}</p>
-                                            <div className="d-flex">
-                                                <button
-                                                    className="btn border-0 shadow-none d-flex flex-column align-items-center justify-content-center me-2"
-                                                    onClick={() => addToCart(item)}
-                                                >
-                                                    <i className={cartIds.includes(item.id) ? "fa-brands fa-opencart text-warning" : "fa-brands fa-opencart"}></i>
-                                                    <span className="font12">Cart</span>
-                                                </button>
-                                                <button
-                                                    className="btn border-0 shadow-none d-flex flex-column align-items-center justify-content-center"
-                                                    onClick={() => addWishlist(item)}
-                                                >
-                                                    <i className={wishlistIds.includes(item.id) ? "fa-solid fa-heart text-danger" : "fa-regular fa-heart"}></i>
-                                                    <span className="font12">Wishlist</span>
-                                                </button>
+                                    <div className="card-body p-2">
+                                        <div className="d-flex justify-content-between align-items-start">
+                                            <div className="w-75">
+                                                <h6 className="card-title font13 fw-bolder shopCardTitle m-0">{item.brand}</h6>
+                                                <p className="small text-muted m-0 font14 text-truncate">{item.Name}</p>
                                             </div>
+                                            <button
+                                                className="btn border-0 shadow-none d-flex flex-column align-items-center justify-content-center"
+                                                onClick={() => addWishlist(item)}
+                                            >
+                                                <i className={wishlistIds.includes(item.id) ? "fa-solid fa-heart text-danger" : "fa-regular fa-heart"}></i>
+                                            </button>
+                                        </div>
+                                        <div className="d-flex justify-content-between align-items-center">
+                                            <p className="fw-bold m-0 shopPrice">
+                                                <span style={{ textDecoration: "line-through", color: "gray", marginRight: "8px", fontWeight: "400" }}>
+                                                    ₹{Math.round(item.price)}
+                                                </span>
+                                                <span>
+                                                    ₹{Math.round(item.price - (item.price * item.discount / 100))}
+                                                </span>
+                                                <span className="discount ms-2">{item.discount}% OFF</span>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

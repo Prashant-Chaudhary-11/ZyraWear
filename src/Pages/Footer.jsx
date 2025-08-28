@@ -15,6 +15,7 @@ export const Footer = () => {
                     <p>Contact</p>
                     <p>Blog</p>
                     <p>Careers</p>
+                    <p>Privacy Policy</p>
                 </div>
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-4 text-center">
                     <h6 className="secondaryColor mb-3">Shop By</h6>
@@ -31,9 +32,8 @@ export const Footer = () => {
                     <p><i class="fa-brands fa-youtube"></i> YouTube</p>
                 </div>
             </div>
-            <div className="d-flex justify-content-between align-items-center mt-4">
-                <p className="text-center mt-4">© {year} ZyraWear. All rights reserved.</p>
-                <p className="text-center">Terms of Service | Privacy Policy</p>
+            <div className="d-flex justify-content-center align-items-center">
+                <p className="text-center">© {year} ZyraWear. All rights reserved.</p>
             </div>
         </div>
     );
