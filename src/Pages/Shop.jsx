@@ -78,31 +78,28 @@ export const Shop = ({ onWishlistChange }) => {
     return (
         <div className="shopContainer">
             {/* Top Section */}
-            <div className="mb-3 mx-4">
+            <div className="mb-3 mx-2">
                 <div>
                     <span className="font12 fw-bold">
                         All Dresses - <span className="text-muted fw-normal">{filteredData.length} Items</span>
                     </span>
                 </div>
-                <div className="d-flex align-items-center justify-content-between">
+                <div className="d-flex align-items-center w-100 justify-content-between border rounded">
                     {/* 👇 Mobile Filter Button */}
                     <button
-                        className="btn btn-outline-secondary d-lg-none lightborder py-1"
+                        className="btn btn-outline-secondary border-end rounded-0 d-lg-none font14 lightborder py-1 w-50 border-0"
                         onClick={() => setShowFilter(true)}
                     >
                         <i className="fa-solid fa-filter me-1"></i> Filters
                     </button>
                     <span></span>
-                    <div className="d-flex align-items-center">
-                        <label htmlFor="SortDress" className="form-label font14 text-muted m-0 me-2 d-none d-sm-block">
-                            Sort By:
-                        </label>
+                    <div className="d-flex align-items-center w-50">
                         <select
-                            className="form-select shadow-none shopSelect font14"
+                            className="form-select border-0 text-center shadow-none shopSelect font14"
                             id="SortDress"
                             value={sortBy}
                             onChange={(e) => setSortBy(e.target.value)}
-                        >
+                        ><i class="fa-solid fa-arrow-up-short-wide"></i>
                             <option value="recommended">Recommended</option>
                             <option value="lowtohigh">Price: Low to High</option>
                             <option value="hightolow">Price: High to Low</option>
@@ -125,10 +122,10 @@ export const Shop = ({ onWishlistChange }) => {
                         <h5 className="m-0">Filters</h5>
                         <div>
                             <button
-                                className="btn btn-sm btn-outline-danger me-2 d-lg-none"
+                                className="btn btn-sm btn-outline-success me-2 d-lg-none"
                                 onClick={() => setShowFilter(false)}
                             >
-                                Close
+                                Apply
                             </button>
                             <button
                                 className="btn btn-sm btn-outline-danger"

@@ -31,4 +31,7 @@
   .navLinks.active{
     color: white!important;
   }
+  .shopContainer{
+    padding: 1rem 0rem!important;
+  }
 }
