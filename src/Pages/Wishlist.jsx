@@ -37,22 +37,30 @@ export const Wishlist = ({ onWishlistChange }) => {
 
     return (
         <div className="wishlistContainer">
-            <h6 className="vertical-filters-header ms-3">MY WISHLIST <span className="text-body-tertiary">{wishlistIds.length} Items</span></h6>
+            <span className="font12 fw-bold">MY WISHLIST - <span className="text-muted fw-normal">{wishlistIds.length} Items</span></span>
             <div className="row mx-0">
                 {filteredData.map((item, index) => (
-                    <div key={index} className="col-lg-2 col-md-4 col-sm-6 mb-4">
+                    <div key={index} className="col-lg-2 col-md-4 col-sm-6 col-6 p-1 mb-1">
                         <div className="card shadow-sm h-100 shopCards border-0 cursor-pointer" id={"item_" + item.id}>
                             <img
                                 src={item.Image}
-                                className="card-img-top"
+                                className="card-img-top cardImageWishlist"
                                 alt={item.Name}
-                                style={{ height: "19rem", objectFit: "cover" }}
+                                style={{ height: "22rem", objectFit: "cover" }}
                             />
                             <div className="card-body ">
-                                <h6 className="card-title font13 m-0">{item.brand}</h6>
-                                <p className="small text-muted font14 text-truncate fw-200 m-0">{item.Name}</p>
-                                <div className="d-flex justify-content-between align-items-center mt-2">
-                                    <p className="fw-bold m-0">₹{item.price}</p>
+                                <h6 className="card-title font13 fw-bolder shopCardTitle m-0">{item.brand}</h6>
+                                <p className="small text-muted m-0 font14 text-truncate">{item.Name}</p>
+                                <div className="d-flex justify-content-between align-items-center">
+                                    <p className="fw-bold m-0 shopPrice">
+                                        <span style={{ textDecoration: "line-through", color: "gray", marginRight: "8px", fontWeight: "400" }}>
+                                            ₹{Math.round(item.price)}
+                                        </span>
+                                        <span>
+                                            ₹{Math.round(item.price - (item.price * item.discount / 100))}
+                                        </span>
+                                        <span className="discount ms-2">{item.discount}% OFF</span>
+                                    </p>
                                     <div className="d-flex align-items-center">
                                         <button className="btn border-0 shadow-none d-flex p-1 flex-column align-items-center justify-content-center position-absolute top-0 end-0 bg-white rounded-circle m-2 font12 opacity-75 cursor-pointer wishlistCross" onClick={() => {removeWishlistItem(item)}}><i class="fa-solid fa-xmark"></i></button>
                                     </div>

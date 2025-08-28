@@ -1,6 +1,6 @@
 /* for smartphone */
 @media only screen and (max-width: 600px) {
-  .topImageHome, .cardImageShop{
+  .topImageHome, .cardImageShop, .cardImageWishlist{
     height: 17rem!important;
   }
   .font14{
@@ -31,7 +31,7 @@
   .navLinks.active{
     color: white!important;
   }
-  .shopContainer{
+  .shopContainer, .wishlistContainer{
     padding: 1rem 0rem!important;
   }
 }

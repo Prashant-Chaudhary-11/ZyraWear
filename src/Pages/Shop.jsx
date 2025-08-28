@@ -213,7 +213,7 @@ export const Shop = ({ onWishlistChange }) => {
                     <div className="row mx-0">
                         {filteredData.map((item, index) => (
                             <div key={index} className="col-lg-3 col-md-4 col-sm-6 col-6 mb-2 px-1">
-                                <div className="card  h-100 shopCards border-0">
+                                <div className="card h-100 shopCards border-0">
                                     <img
                                         src={item.Image}
                                         className="card-img-top cardImageShop rounded"
