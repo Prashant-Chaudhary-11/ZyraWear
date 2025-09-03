@@ -38,6 +38,24 @@ html {
 .font14{
     font-size: 14px!important;
 }
+.font16{
+    font-size: 16px!important;
+}
+.font18{
+    font-size: 18px!important;
+}
+.font20{
+    font-size: 20px!important;
+}
+.font22{
+    font-size: 22px!important;
+}
+.font24{
+    font-size: 24px!important;
+}
+.font26{
+    font-size: 26px!important;
+}
 
 .primaryColor {
     color: var(--primary-color)!important;
@@ -271,4 +289,79 @@ html {
 .subscriptionContainer{
     background-color: #f5f5f5;
     padding: 3rem 2rem;
+}
+/* About US */
+.aboutus_img{
+    height: 20rem;
+    background-image: url('../about_us_2.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 8rem;
+}
+.mainHeadingAbout{
+    font-family: 'Gilroy-Bold', sans-serif !important;
+    font-size: 45px;
+    color: var(--primary-color);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.secondaryHeadingAbout{
+    font-size: 18px;
+    color: var(--primary-color);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.aboutus_text{
+    background-color: #ffe1c6;
+    width: 60%;
+}
+.about_row{
+    margin: 2rem 2rem!important;
+}
+.aboutCard_img{
+    height: 8rem;
+}
+.about_bg_1{
+    background-color: #f3f3f7;
+}
+.about_bg_2{
+    background-color: #e9e6f7;
+}
+.about_bg_3{
+    background-color: #ece5e8;
+}
+.about_columns{
+    padding: 2rem!important;
+}
+.recommandMobile{
+    display: none!important;
+}
+.recommandLaptop{
+    display: flex!important;
+}
+.upperNavLinks{
+    color: var(--light-color);
+    cursor: pointer;
+}
+.upperNavLinks:hover{
+    color: var(--secondary-color)!important;
+    text-decoration: underline;
+}
+.shopHeadingLight{
+    font-size: 20px;
+    font-weight: 200;
+    color: var(--light-color);
+}
+.shopPrice{
+    font-size: 20px;
+}
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0rem 0.7rem;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--light-color);
+}
+.fw-300{
+    font-weight: 300!important;
 }

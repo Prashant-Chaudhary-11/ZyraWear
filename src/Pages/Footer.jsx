@@ -5,7 +5,7 @@ export const Footer = () => {
         <div className="footer">
             <div className="row mx-0">
                 <div className="col-lg-3 col-md-4 col-sm-6 col-6 mb-4 text-center">
-                    <h2 className="logo m-0 mb-2 d-flex align-items-center"><img src="ZyraWear_Logo.png" alt="" width={28} className="me-2" />ZyraWear</h2>
+                    <h2 className="logo m-0 mb-2 d-flex align-items-center"><img src="../ZyraWear_Logo.png" alt="" width={28} className="me-2" />ZyraWear</h2>
                     <p className='text-start'>Elevate your wardrobe with ZyraWear.
                         Where timeless style meets everyday comfort.</p>
                 </div>

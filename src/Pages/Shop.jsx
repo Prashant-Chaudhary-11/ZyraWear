@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
 import Store from "../Pages/Store.json";
+import { useNavigate } from "react-router-dom";
 
 export const Shop = ({ onWishlistChange }) => {
+    const navigate = useNavigate();
     const [wishlistIds, setWishlistIds] = useState([]);
     const [cartIds, setCartIds] = useState([]);
     const [showFilter, setShowFilter] = useState(false); // 👈 filter toggle
@@ -84,7 +86,7 @@ export const Shop = ({ onWishlistChange }) => {
                         All Dresses - <span className="text-muted fw-normal">{filteredData.length} Items</span>
                     </span>
                 </div>
-                <div className="d-flex align-items-center w-100 justify-content-between border rounded">
+                <div className="align-items-center w-100 justify-content-between border rounded recommandMobile">
                     {/* 👇 Mobile Filter Button */}
                     <button
                         className="btn btn-outline-secondary border-end rounded-0 d-lg-none font14 lightborder py-1 w-50 border-0"
@@ -99,7 +101,7 @@ export const Shop = ({ onWishlistChange }) => {
                             id="SortDress"
                             value={sortBy}
                             onChange={(e) => setSortBy(e.target.value)}
-                        ><i class="fa-solid fa-arrow-up-short-wide"></i>
+                        >
                             <option value="recommended">Recommended</option>
                             <option value="lowtohigh">Price: Low to High</option>
                             <option value="hightolow">Price: High to Low</option>
@@ -107,6 +109,20 @@ export const Shop = ({ onWishlistChange }) => {
                             <option value="za">Z-A</option>
                         </select>
                     </div>
+                </div>
+                <div className="justify-content-end recommandLaptop">
+                    <select
+                            className="form-select text-center shadow-none shopSelect font14"
+                            id="SortDress"
+                            value={sortBy}
+                            onChange={(e) => setSortBy(e.target.value)}
+                        >
+                            <option value="recommended">Recommended</option>
+                            <option value="lowtohigh">Price: Low to High</option>
+                            <option value="hightolow">Price: High to Low</option>
+                            <option value="az">A-Z</option>
+                            <option value="za">Z-A</option>
+                        </select>
                 </div>
             </div>
 
@@ -212,7 +228,8 @@ export const Shop = ({ onWishlistChange }) => {
                 <div className="col-lg-9 col-md-8 col-sm-12 mb-4 border-top pt-3 px-1">
                     <div className="row mx-0">
                         {filteredData.map((item, index) => (
-                            <div key={index} className="col-lg-3 col-md-4 col-sm-6 col-6 mb-2 px-1">
+                            <div key={index} className="col-lg-3 col-md-4 col-sm-6 col-6 mb-2 px-1" onClick={() => navigate(`/shop/${item.id}`)}
+                            style={{ cursor: "pointer" }}>
                                 <div className="card h-100 shopCards border-0">
                                     <img
                                         src={item.Image}
@@ -234,7 +251,7 @@ export const Shop = ({ onWishlistChange }) => {
                                             </button>
                                         </div>
                                         <div className="d-flex justify-content-between align-items-center">
-                                            <p className="fw-bold m-0 shopPrice">
+                                            <p className="fw-bold m-0">
                                                 <span style={{ textDecoration: "line-through", color: "gray", marginRight: "8px", fontWeight: "400" }}>
                                                     ₹{Math.round(item.price)}
                                                 </span>

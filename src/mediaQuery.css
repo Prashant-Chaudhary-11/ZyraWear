@@ -34,4 +34,40 @@
   .shopContainer, .wishlistContainer{
     padding: 1rem 0rem!important;
   }
+  .mainHeadingAbout{
+    font-size: 25px;
+  }
+  .secondaryHeadingAbout{
+      font-size: 18px;
+  }
+  .aboutus_text{
+    width: 85%;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .about_home{
+    padding: 0rem 2rem!important;
+  }
+  .about_row{
+    margin: 2rem 1rem!important;
+  }
+  .aboutCard_mainHeading{
+    font-size: 18px;
+  }
+  .aboutCard_subHeading{
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .about_columns{
+    padding: 0.3rem!important;
+  }
+  .aboutCard_img{
+    height: 6rem;
+  }
+  .recommandMobile{
+    display: flex!important;
+  }
+  .recommandLaptop{
+      display: none!important;
+  }
 }
