@@ -60,7 +60,7 @@ export const Header = ({ WishlistCount }) => {
             <i className="customSearchIcon fa-solid fa-magnifying-glass position-absolute top-50 start-0 translate-middle-y"></i>
           </div>
           <NavLink
-            to="/login"
+            to="/cart"
             className="btn border-0 shadow-none d-flex flex-column align-items-center justify-content-center me-2"
           >
             <i className="fa-brands fa-opencart"></i>

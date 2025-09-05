@@ -245,8 +245,11 @@ export const Shop = ({ onWishlistChange }) => {
                                             </div>
                                             <button
                                                 className="btn border-0 shadow-none d-flex flex-column align-items-center justify-content-center"
-                                                onClick={() => addWishlist(item)}
-                                            >
+                                                onClick={(e) => {
+                                                    e.stopPropagation(); // ⛔ stop card click
+                                                    addWishlist(item);
+                                                }}
+                                                >
                                                 <i className={wishlistIds.includes(item.id) ? "fa-solid fa-heart text-danger" : "fa-regular fa-heart"}></i>
                                             </button>
                                         </div>

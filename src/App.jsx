@@ -12,6 +12,7 @@ import { Login } from './Pages/Login';
 import { SignUp } from './Pages/Signup';
 import { Wishlist } from './Pages/Wishlist';
 import { ProductDetails } from './Pages/ProductDetails'; // 👈 import ProductDetails
+import { Cart } from './Pages/Cart';
 
 const App = () => {
   // ✅ make WishlistCount a state
@@ -34,6 +35,7 @@ const App = () => {
         <Route path="/shop/:id" element={<ProductDetails />} /> {/* 👈 new route */}
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/cart" element={<Cart />} />
         <Route path="/wishlist" element={<Wishlist onWishlistChange={(count) => setWishlistCount(count)} />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
