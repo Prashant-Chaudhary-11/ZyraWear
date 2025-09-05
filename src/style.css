@@ -368,3 +368,7 @@ ul.no-bullets {
 .fw-300{
     font-weight: 300!important;
 }
+/* cart */
+.priceCart{
+    background-color: #f0f0f0;
+}

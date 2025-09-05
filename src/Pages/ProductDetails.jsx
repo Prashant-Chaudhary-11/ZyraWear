@@ -4,10 +4,11 @@ import { useEffect, useState } from "react";
 
 export const ProductDetails = () => {
   const navigate = useNavigate();
-  const { id } = useParams(); 
+  const { id } = useParams();
   const product = Store.find((item) => item.id === parseInt(id));
 
   const [cartIds, setCartIds] = useState([]);
+  const [showPopup, setShowPopup] = useState(false); // 👈 popup state
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -93,7 +94,7 @@ export const ProductDetails = () => {
               className="btn btn-dark w-50"
               onClick={() => {
                 addToCart(product);
-                navigate("/cart");
+                setShowPopup(true); // 👉 show popup instead of navigating
               }}
             >
               Buy Now
@@ -102,11 +103,7 @@ export const ProductDetails = () => {
           <hr />
 
           {/* Product Details */}
-          <div>
-            <p className="fw-300">100% Original Products</p>
-            <p className="fw-300">Pay on delivery might be available</p>
-            <p className="fw-300">Easy 7 days returns and exchanges</p>
-          </div>
+          <div> <p className="fw-300">100% Original Products</p> <p className="fw-300">Pay on delivery might be available</p> <p className="fw-300">Easy 7 days returns and exchanges</p> <p className="fw-bold font18"> Product Details <i className="fa-regular fa-note-sticky"></i> </p> {/* remove bullets */} <ul className="no-bullets"> <li>Green and blue Tshirt for women</li> <li>Typography embroidered</li> <li>Applique detail</li> <li>Longline length</li> <li>Round neck</li> <li>Three-quarter, contrasting raglan sleeves</li> <li>Knitted cotton fabric</li> </ul> <h6 className="fw-bold mt-3">Size & Fit</h6> <ul className="no-bullets"> <li>Oversized Fit</li> <li>The model (height 5'8) is wearing a size S</li> </ul> <h6 className="fw-bold mt-3">Material & Care</h6> <ul className="no-bullets"> <li>60% Cotton, 40% Polyester</li> <li>Machine wash</li> </ul> </div>
         </div>
       </div>
 
@@ -146,6 +143,28 @@ export const ProductDetails = () => {
           ))}
         </div>
       </div>
+
+      {/* ✅ Popup Modal */}
+      {showPopup && (
+        <div
+          className="position-fixed top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+          style={{ background: "rgba(0,0,0,0.5)", zIndex: 1050 }}
+        >
+          <div className="bg-white rounded p-4 shadow" style={{ width: "350px" }}>
+            <h5 className="mb-3 text-center">⚠️ Payment Gateway</h5>
+            <p className="text-muted text-center mb-4">
+              Payment gateway is currently in development phase.
+              Please try again later.
+            </p>
+            <button
+              className="btn btn-dark w-100"
+              onClick={() => setShowPopup(false)}
+            >
+              OK
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
