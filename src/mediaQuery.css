@@ -70,4 +70,8 @@
   .recommandLaptop{
       display: none!important;
   }
+  .errorPhone{
+    justify-content: start!important;
+    height: auto!important;
+  }
 }

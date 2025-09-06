@@ -13,6 +13,8 @@ import { SignUp } from './Pages/Signup';
 import { Wishlist } from './Pages/Wishlist';
 import { ProductDetails } from './Pages/ProductDetails'; // 👈 import ProductDetails
 import { Cart } from './Pages/Cart';
+import { Register } from './Pages/Register';
+import { NotFound } from './Pages/NotFound'; // 👈 import 404 page
 
 const App = () => {
   // ✅ make WishlistCount a state
@@ -38,7 +40,9 @@ const App = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/wishlist" element={<Wishlist onWishlistChange={(count) => setWishlistCount(count)} />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
       <Footer />

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const Login = () => {
+export const Register = () => {
   const [formData, setFormData] = useState({ email: "", password: "" });
 
   const handleChange = (e) => {
@@ -9,7 +9,7 @@ export const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Login form submitted", formData);
+    console.log("Register form submitted", formData);
   };
 
   return (
@@ -18,8 +18,10 @@ export const Login = () => {
         {/* Left Side - Form */}
         <div className="col-md-4 d-flex align-items-center justify-content-center p-3">
           <div className="w-100">
-            <h2 className="fw-bold mb-2">Welcome back</h2>
-            <p className="text-muted mb-4">Sign in to continue.</p>
+            <h2 className="fw-bold mb-2">Start your 14-day free trial</h2>
+            <p className="text-muted mb-4">
+              No credit card required. Cancel anytime.
+            </p>
 
             <form onSubmit={handleSubmit}>
               <div className="mb-3">
@@ -38,14 +40,14 @@ export const Login = () => {
                 <input
                   type="password"
                   name="password"
-                  placeholder="Enter your password"
+                  placeholder="Choose a password"
                   value={formData.password}
                   onChange={handleChange}
                   className="form-control"
                 />
               </div>
               <button type="submit" className="btn btn-dark w-100">
-                Sign in
+                Create account
               </button>
             </form>
 
@@ -64,9 +66,9 @@ export const Login = () => {
             </div>
 
             <p className="mt-4 text-muted font13 text-center">
-              Don’t have an account?{" "}
-              <a href="/register" className="fw-semibold text-dark">
-                Sign up
+              Already have an account?{" "}
+              <a href="/login" className="fw-semibold text-dark">
+                Sign in
               </a>
             </p>
           </div>
@@ -74,20 +76,23 @@ export const Login = () => {
 
         {/* Right Side - Image + Quote */}
         <div className="col-md-8 p-3 d-none d-md-block">
-            <div className="position-relative">
-                <img
-                    src="./login.jpg"
-                    alt="Model"
-                    className="w-100 h-100 object-fit-cover rounded-5"
-                />
-                <div className="position-absolute bottom-0 start-50  w-100 translate-middle-x p-3 bg-dark bg-opacity-50 text-white rounded-bottom-5">
-                    <i className="mb-1 small text-white">
-                    This platform helped me land amazing opportunities. Signing in
-                    feels like a step towards success every time.
-                    </i>
-                    <p className="mb-0 small text-white ">Alex | Photographer | Sydney</p>
-                </div>
+          <div className="position-relative">
+            <img
+              src="./register.jpg"
+              alt="Model"
+              className="w-100 h-100 object-fit-cover rounded-5"
+            />
+            <div className="position-absolute bottom-0 start-50 w-100 translate-middle-x p-3 bg-dark bg-opacity-50 text-white rounded-bottom-5">
+              <i className="mb-1 small text-white">
+                I landed four paid gigs within a week of signing up, which is more
+                than I’ve ever had from an agency. I’ve been recommending it to
+                everyone I know since!
+              </i>
+              <p className="mb-0 small text-white">
+                Mia Schultejohann | Model | Melbourne
+              </p>
             </div>
+          </div>
         </div>
       </div>
     </div>

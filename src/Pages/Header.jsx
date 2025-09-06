@@ -122,7 +122,7 @@ export const Header = ({ WishlistCount }) => {
               </NavLink>
             </li>
             <li className="py-2 px-3 border-bottom mobileMenuItem">
-              <NavLink to="/signIn" className="navLinks w-100 d-block text-dark text-decoration-none" onClick={() => setMenuOpen(false)}>
+              <NavLink to="/login" className="navLinks w-100 d-block text-dark text-decoration-none" onClick={() => setMenuOpen(false)}>
               <i class=" me-2 fa-regular fa-user"></i> Sign In
               </NavLink>
             </li>
